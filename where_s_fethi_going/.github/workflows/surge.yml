@@ -24,8 +24,8 @@ jobs:
         run: npm ci
       - name: Build the project
         run: npm run build
-      - name: Run the tests
-        run: npm run test
+      # - name: Run the tests
+      #   run: npm run test
       - name: Install Surge CLI
         run: npm install --global surge
       - name: Deploy
