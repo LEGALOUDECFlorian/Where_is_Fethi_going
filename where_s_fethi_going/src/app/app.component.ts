@@ -9,5 +9,5 @@ import { MapCaseComponent } from './components/map-case.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'where is Fethi ?';
+  title = 'Where is Fethi ?';
 }
