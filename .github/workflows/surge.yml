@@ -3,7 +3,7 @@ name: Deploy where_s_fethi_going to Surge
 on:
   push:
     branches:
-      - master
+      - main
 
 concurrency:
   group: "surge"
